@@ -11,7 +11,9 @@ const TemplateWrapper = ({ children }) => {
     <div>
       <Helmet>
         <html lang="en" />
+        <meta name="google-site-verification" content="zlusjX7dhwo5je8loe3yvFiY3sDuXRBfnvESMcUQwJk" />    
         <title>{title}</title>
+        
         <meta name="description" content={description} />
 
         <link
